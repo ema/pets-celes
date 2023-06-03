@@ -34,5 +34,10 @@ export DEBFULLNAME="Emanuele Rocca"
 export EMAIL="ema@debian.org"
 export EDITOR=vim
 
-. /etc/bash_completion
-. /usr/share/autojump/autojump.sh
+if [ -f "/etc/bash_completion" ]; then
+    . /etc/bash_completion
+fi
+
+if [ -f "/usr/share/autojump/autojump.sh" ]; then
+    . /usr/share/autojump/autojump.sh
+fi
