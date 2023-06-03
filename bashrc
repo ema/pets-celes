@@ -1,6 +1,7 @@
 # pets: destfile=/home/ema/.bashrc, owner=ema, group=ema, mode=0644
-# pets: package=bash-completion
 # pets: package=autojump
+# pets: package=bash-completion
+# pets: package=tldr
 
 # append to the history file, don't overwrite it
 shopt -s histappend
